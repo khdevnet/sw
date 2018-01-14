@@ -17,4 +17,4 @@ User need to have possibility perform search by product name and change the quan
 
 # Technical documentation
 
-Winter is comming... 
+![Highlevel Architecture Vision](https://github.com/khdevnet/warehouse/blob/master/docs/HighlevelArchitectureVision.png)
