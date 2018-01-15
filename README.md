@@ -14,6 +14,7 @@ User need to have possibility perform search by product name and change the quan
 * [As a user I want to be able see a list of products](https://github.com/khdevnet/warehouse/milestone/2)
 * [As a user I want to be able to have access to this application after being authenticated](https://github.com/khdevnet/warehouse/milestone/3)
 * [As a user I want to be able to see product information in user friendly way](https://github.com/khdevnet/warehouse/milestone/4)
+* [As a user I want to be able host service in kubernetes](https://github.com/khdevnet/warehouse/milestone/5)
 
 # Technical documentation
 
