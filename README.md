@@ -21,12 +21,18 @@ User need to have possibility perform search by product name and change the quan
   * Development Flow
   * Bug Verication Flow
   
-### Technical documentation
-  * Microservice Architecture Approach
-  * OAuth 2.0
-  * Onion Architecture Approach
-  * Database Migration
-  * Highlevel Application Architecture
+### Frameworks & Architecture Styles
+  * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
+  * [Onion Architecture](https://dzone.com/articles/onion-architecture-is-interesting)
+  * [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749)
+  * [EF Code First Migrations](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
+  
+### Highlevel Application Architecture
+  * [Genearal Components Architecture](https://github.com/khdevnet/warehouse-frontend)
+  * [Facebook OAuth](https://developers.facebook.com/docs/javascript)
+  * [Frontend Component](https://github.com/khdevnet/warehouse-frontend)
+  * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql)
+  * [Products Component](https://github.com/khdevnet/warehouse-products)
   
 ### Maintenance & Support
   * Infrastructure
