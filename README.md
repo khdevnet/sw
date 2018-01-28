@@ -28,11 +28,11 @@ User need to have possibility perform search by product name and change the quan
   * [EF Code First Migrations](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
   
 ### Highlevel Application Architecture
-  * [Genearal Components Architecture](https://github.com/khdevnet/warehouse-frontend)
-  * [Facebook OAuth](https://developers.facebook.com/docs/javascript)
-  * [Frontend Component](https://github.com/khdevnet/warehouse-frontend)
-  * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql)
-  * [Products Component](https://github.com/khdevnet/warehouse-products)
+  * [General Architecture View](https://github.com/khdevnet/warehouse-frontend)
+  * [Facebook OAuth](https://developers.facebook.com/docs/javascript) - Authorization SDK from Facebook
+  * [Frontend Component](https://github.com/khdevnet/warehouse-frontend) - provides the UI to the user
+  * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql) - provides the API to interact with Frontend
+  * [Products Component](https://github.com/khdevnet/warehouse-products) - provides the API to Products CRUD Operations
   
 ### Maintenance & Support
   * Infrastructure
