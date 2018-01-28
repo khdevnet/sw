@@ -19,14 +19,21 @@ User need to have possibility perform search by product name and change the quan
 # Development
 
 * Process
-   - Development flow
-   - Bug verication flow
-* Frameworks & tools
-   - microservice architecture approaches
-   - migrations
-   - Onion architecture
+  - Development Flow
+  - Bug Verication Flow
+  
 * Technical documentation
-
+  - Microservice Architecture Approach
+  - OAuth 2.0
+  - Onion Architecture Approach
+  - Database Migration
+  - Highlevel Application Architecture
+* Maintenance & Support
+  - Infrastructure
+  - Deploy Guide
+  
+* User Documentation
+  
 ![Highlevel Architecture Vision](https://github.com/khdevnet/warehouse/blob/master/docs/HighlevelArchitectureVision.png)
 
 Components
