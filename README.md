@@ -39,11 +39,3 @@ User need to have possibility perform search by product name and change the quan
   * Deploy Guide
   
 ### User Documentation
-  
-![Highlevel Architecture Vision](https://github.com/khdevnet/warehouse/blob/master/docs/HighlevelArchitectureVision.png)
-
-Components
-
-* [Frontend](https://github.com/khdevnet/warehouse-frontend)
-* [GraphQL](https://github.com/khdevnet/warehouse-graphql)
-* [Products](https://github.com/khdevnet/warehouse-products)
