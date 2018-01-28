@@ -17,22 +17,22 @@ User need to have possibility perform search by product name and change the quan
 * [As a user I want to be able host service in kubernetes](https://github.com/khdevnet/warehouse/milestone/5)
 
 # Development
-
-* Process
-  - Development Flow
-  - Bug Verication Flow
+### Process
+  * Development Flow
+  * Bug Verication Flow
   
-* Technical documentation
-  - Microservice Architecture Approach
-  - OAuth 2.0
-  - Onion Architecture Approach
-  - Database Migration
-  - Highlevel Application Architecture
-* Maintenance & Support
-  - Infrastructure
-  - Deploy Guide
+### Technical documentation
+  * Microservice Architecture Approach
+  * OAuth 2.0
+  * Onion Architecture Approach
+  * Database Migration
+  * Highlevel Application Architecture
   
-* User Documentation
+### Maintenance & Support
+  * Infrastructure
+  * Deploy Guide
+  
+### User Documentation
   
 ![Highlevel Architecture Vision](https://github.com/khdevnet/warehouse/blob/master/docs/HighlevelArchitectureVision.png)
 
