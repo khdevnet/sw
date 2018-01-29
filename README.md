@@ -23,9 +23,7 @@ User need to have possibility perform search by product name and change the quan
   
 ### Frameworks & Architecture Styles
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
-  * [Onion Architecture](https://dzone.com/articles/onion-architecture-is-interesting)
   * [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749)
-  * [EF Code First Migrations](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
   
 ### Highlevel Application Architecture
   * [General Architecture View](https://github.com/khdevnet/warehouse/wiki/General-Architecture-View)
