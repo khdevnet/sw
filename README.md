@@ -26,7 +26,7 @@ User need to have possibility perform search by product name and change the quan
   * [Facebook OAuth](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
   * [Kubernetes](https://kubernetes.io/)
   
-### Highlevel Application Architecture
+### Application Architecture
   * [General Architecture View](https://github.com/khdevnet/warehouse/wiki/General-Architecture-View)
   * [Frontend Component](https://github.com/khdevnet/warehouse-frontend) - provides UI of application to end users
   * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql) - provides an API to interact with Frontend
