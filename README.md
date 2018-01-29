@@ -19,7 +19,7 @@ User need to have possibility perform search by product name and change the quan
 # Development
 ### Process
   * [Development Flow](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
-  * Bug Verication Flow
+  * Bug Verification Flow
   
 ### Frameworks & Architecture Styles
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
