@@ -8,7 +8,7 @@ User have to see a list of all the available products in stock.
 We need to be able to see product information (name, price, quantity) in readable form.
 User need to have possibility perform search by product name and change the quantity of the product during the replenishment of the assortment. Users must have access to this application after being authenticated.
 
-# Requirements
+# Features
   * [Display available products on warehouse](https://github.com/khdevnet/warehouse/wiki/Display-available-products-on-warehouse)
   * [Display dashboard with price statistic, user activities]()
   * [Save user activity history]()
