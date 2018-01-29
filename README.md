@@ -8,13 +8,12 @@ User have to see a list of all the available products in stock.
 We need to be able to see product information (name, price, quantity) in readable form.
 User need to have possibility perform search by product name and change the quantity of the product during the replenishment of the assortment. Users must have access to this application after being authenticated.
 
-# Roadmap
-
-* [As a user I want to be able access data in flexible way](https://github.com/khdevnet/warehouse/milestone/1)
-* [As a user I want to be able see a list of products](https://github.com/khdevnet/warehouse-products/milestone/1)
-* [As a user I want to be able to have access to this application after being authenticated](https://github.com/khdevnet/warehouse/milestone/3)
-* [As a user I want to be able to see product information in user friendly way](https://github.com/khdevnet/warehouse/milestone/4)
-* [As a user I want to be able host service in kubernetes](https://github.com/khdevnet/warehouse/milestone/5)
+# Requirements
+  * [Display available products on warehouse](https://github.com/khdevnet/warehouse/wiki/Display-available-products-on-warehouse)
+  * [Display dashboard with price statistic, user activities]()
+  * [Save user activity history]()
+  * [Extend Api for external customers]()
+  * [Create online chat bot]()
 
 # Development
 ### Process
