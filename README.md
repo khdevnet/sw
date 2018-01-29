@@ -24,6 +24,7 @@ User need to have possibility perform search by product name and change the quan
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
   * [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749)
   * [Facebook OAuth](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
+  * [Kubernetes](https://kubernetes.io/)
   
 ### Highlevel Application Architecture
   * [General Architecture View](https://github.com/khdevnet/warehouse/wiki/General-Architecture-View)
