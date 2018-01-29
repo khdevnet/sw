@@ -34,7 +34,7 @@ User need to have possibility perform search by product name and change the quan
   
 ### Maintenance & Support
   * [Environments](https://github.com/khdevnet/warehouse/wiki/Environments)
-  * [Pipiline Guide])()
+  * [Pipiline Guide]()
   
 # User Documentation
   * [Dashboard page]()
