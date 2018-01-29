@@ -33,7 +33,10 @@ User need to have possibility perform search by product name and change the quan
   * [Products Component](https://github.com/khdevnet/warehouse-products) - provides an API for Products CRUD operations
   
 ### Maintenance & Support
-  * Infrastructure
-  * Deploy Guide
+  * [Environments](https://github.com/khdevnet/warehouse/wiki/Environments)
+  * [Pipiline Guide])()
   
 # User Documentation
+  * [Dashboard page]()
+  * [Products page]()
+  * [Api for external users]()
