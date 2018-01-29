@@ -24,10 +24,10 @@ User need to have possibility perform search by product name and change the quan
 ### Frameworks & Architecture Styles
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
   * [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749)
+  * [Facebook OAuth](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
   
 ### Highlevel Application Architecture
   * [General Architecture View](https://github.com/khdevnet/warehouse/wiki/General-Architecture-View)
-  * [Facebook OAuth](https://developers.facebook.com/docs/javascript) - Authorization SDK from Facebook
   * [Frontend Component](https://github.com/khdevnet/warehouse-frontend) - provides UI of application to end users
   * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql) - provides an API to interact with Frontend
   * [Products Component](https://github.com/khdevnet/warehouse-products) - provides an API for Products CRUD operations
