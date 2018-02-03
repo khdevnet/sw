@@ -32,7 +32,7 @@ User need to have possibility perform search by product name and change the quan
   * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql) - provides an API to interact with Frontend
   * [Products Component](https://github.com/khdevnet/warehouse-products) - provides an API for Products CRUD operations
   
-### Maintenance & Support
+# Maintenance & Support
   * [Environments](https://github.com/khdevnet/warehouse/wiki/Environments)
   * Pipiline Guide
   * Kubernetes configuration
