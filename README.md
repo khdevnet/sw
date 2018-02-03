@@ -23,7 +23,7 @@ User need to have possibility perform search by product name and change the quan
   * [Kubernetes](https://kubernetes.io/)
   
 ### Application Architecture
-  * [High Level View](https://github.com/khdevnet/warehouse/wiki/General-Architecture-View)
+  * [High Level View](https://github.com/khdevnet/warehouse/wiki/High-Level-Architecture-View)
   * [Frontend Component](https://github.com/khdevnet/warehouse-frontend) - provides UI of application to end users
   * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql) - provides an API to interact with Frontend
   * [Products Component](https://github.com/khdevnet/warehouse-products) - provides an API for Products CRUD operations
