@@ -10,11 +10,11 @@ User need to have possibility perform search by product name and change the quan
 
 # Features
   * [Display available products on warehouse](https://github.com/khdevnet/warehouse/wiki/Display-available-products-on-warehouse)
-  * [Display dashboard with price statistic, user activities]()
-  * [Save user activity history]()
-  * [Extend Api for external customers]()
-  * [Create online chat bot]()
-
+  * Display dashboard with price statistic, user activities
+  * Save user activity history
+  * Extend Api for external customers
+  * Create online chat bot
+  
 # Development
 ### Process
   * [Development Flow](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
@@ -34,10 +34,10 @@ User need to have possibility perform search by product name and change the quan
   
 ### Maintenance & Support
   * [Environments](https://github.com/khdevnet/warehouse/wiki/Environments)
-  * [Pipiline Guide]()
-  * [Kubernetes configuration]()
+  * Pipiline Guide
+  * Kubernetes configuration
   
 # User Documentation
-  * [Dashboard page]()
-  * [Products page]()
-  * [Api for external users]()
+  * Dashboard page
+  * Products page
+  * Api for external users
