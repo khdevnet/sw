@@ -16,10 +16,6 @@ User need to have possibility perform search by product name and change the quan
   * Create online chat bot
   
 # Development
-### Process
-  * [Development Flow](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
-  * Bug Verification Flow
-  
 ### Frameworks & Architecture Styles
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
   * [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749)
@@ -31,11 +27,18 @@ User need to have possibility perform search by product name and change the quan
   * [Frontend Component](https://github.com/khdevnet/warehouse-frontend) - provides UI of application to end users
   * [GraphQL Component](https://github.com/khdevnet/warehouse-graphql) - provides an API to interact with Frontend
   * [Products Component](https://github.com/khdevnet/warehouse-products) - provides an API for Products CRUD operations
+
+### Process
+  * [Development Flow](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
+  * Bug Verification Flow
+  
+### Continious Integration Flows
+  * [Development Pipeline Flow](https://github.com/khdevnet/warehouse/wiki/Development-Pipeline-Flow)
+  * [Production Pipeline Flow](https://github.com/khdevnet/warehouse/wiki/Production-Pipeline-Flow)
   
 # Maintenance & Support
   * [Environments](https://github.com/khdevnet/warehouse/wiki/Environments)
-  * Pipiline Guide
-  * Kubernetes configuration
+  * [Kubernetes Debug Commands]()
   
 # User Documentation
   * Dashboard page
