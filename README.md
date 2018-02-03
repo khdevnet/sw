@@ -32,7 +32,7 @@ User need to have possibility perform search by product name and change the quan
   * [Development Flow](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
   * Bug Verification Flow
   
-### Continious Integration Flows
+### Continious Integration
   * [Development Pipeline Flow](https://github.com/khdevnet/warehouse/wiki/Development-Pipeline-Flow)
   * [Production Pipeline Flow](https://github.com/khdevnet/warehouse/wiki/Production-Pipeline-Flow)
   
