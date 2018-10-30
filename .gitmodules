@@ -1,0 +1,6 @@
+[submodule "sw-products"]
+	path = sw-products
+	url = https://github.com/khdevnet/sw-products
+[submodule "sw-ui"]
+	path = sw-ui
+	url = https://github.com/khdevnet/sw-products
