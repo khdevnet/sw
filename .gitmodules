@@ -1,6 +1,0 @@
-[submodule "sw-products"]
-	path = sw-products
-	url = https://github.com/khdevnet/sw-products
-[submodule "sw-checkout"]
-	path = sw-checkout
-	url = https://github.com/khdevnet/sw-checkout
