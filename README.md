@@ -17,6 +17,16 @@ Users must have access to this application after being authenticated.
   * Create online chat bot
   
 # Development
+### Start
+  * Clone all projects
+  ```
+  $ git submodule update --init --recursive
+  $ git submodule update --recursive --remote
+  ```
+  * Run docker compose 
+  ```
+  $ docker-compose up
+  ```
 ### Frameworks & Architecture Styles
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
   * [CQRS Architecture](https://martinfowler.com/bliki/CQRS.html)
