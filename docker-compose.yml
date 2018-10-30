@@ -10,27 +10,69 @@ services:
     networks:
      - net
     ports:
-     - "5432:5432"
+     - "5433:5432"
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    networks:
+     - net
+    ports:
+     - "5673:5672"
+     - "8081:15672"
+  ui:
+    depends_on:
+      - "products"
+      - "checkout"
+      - "handler"
+    build: ./sw-ui/
+    networks:
+     - net
+    ports:
+     - "8444:80"
   products:
+    depends_on:
+      - "postgres"
     build: ./sw-products/
     environment:
-     - SW_ConnectionStrings__ProductDbContext=User ID=postgres;Password=123456;Host=sw_postgres_1;Port=5432;Database=sw_products;Pooling=true;
+     - SW_ConnectionStrings__ProductDbContext=User ID=postgres;Password=123456;Server=sw_postgres_1;Port=5432;Database=sw_products;Pooling=true;
     networks:
      - net
     ports:
      - "8433:80"
   checkout:
+    depends_on:
+      - "postgres"
+      - "rabbitmq"
     build: ./sw-checkout/
     environment:
      - SW_EventStore__ConnectionString=PORT=5432; HOST=sw_postgres_1;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=100;COMMANDTIMEOUT=20;DATABASE=sw_checkout;PASSWORD=123456;USER ID=postgres;
      - SW_ReadStorage__ConnectionString=Server=sw_postgres_1;Port=5432;Database=sw_checkout;User Id=postgres;Password=123456;
-     - SW_ReadStorageSyncQueue__Host=localhost
+     - SW_ReadStorageSyncQueue__Host=sw_rabbitmq_1
      - SW_ReadStorageSyncQueue__QueueName=read-storage-sync
      - SW_ReadStorageSyncQueue__Route=read-storage-sync
-     - SW_ProcessOrderQueue__Host=localhost
+     - SW_ProcessOrderQueue__Host=sw_rabbitmq_1
      - SW_ProcessOrderQueue__QueueName=process-order
      - SW_ProcessOrderQueue__Route=process-order
     networks:
      - net
     ports:
      - "8434:80"
+  handler:
+    depends_on:
+      - "postgres"
+      - "rabbitmq"
+    build: 
+      context: ./sw-checkout/
+      dockerfile: DockerfileHandler
+    stdin_open: true
+    tty: true
+    environment:
+     - SW_EventStore__ConnectionString=PORT=5432; HOST=sw_postgres_1;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=100;COMMANDTIMEOUT=20;DATABASE=sw_checkout;PASSWORD=123456;USER ID=postgres;
+     - SW_ReadStorage__ConnectionString=Server=sw_postgres_1;Port=5432;Database=sw_checkout;User Id=postgres;Password=123456;
+     - SW_ReadStorageSyncQueue__Host=sw_rabbitmq_1
+     - SW_ReadStorageSyncQueue__QueueName=read-storage-sync
+     - SW_ReadStorageSyncQueue__Route=read-storage-sync
+     - SW_ProcessOrderQueue__Host=sw_rabbitmq_1
+     - SW_ProcessOrderQueue__QueueName=process-order
+     - SW_ProcessOrderQueue__Route=process-order
+    networks:
+     - net

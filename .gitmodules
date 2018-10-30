@@ -3,7 +3,7 @@
 	url = https://github.com/khdevnet/sw-products
 [submodule "sw-ui"]
 	path = sw-ui
-	url = https://github.com/khdevnet/sw-products
+	url = https://github.com/khdevnet/sw-ui
 [submodule "sw-checkout"]
 	path = sw-checkout
 	url = https://github.com/khdevnet/sw-checkout
