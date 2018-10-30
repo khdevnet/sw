@@ -19,3 +19,18 @@ services:
      - net
     ports:
      - "8433:80"
+  checkout:
+    build: ./sw-checkout/
+    environment:
+     - SW_EventStore__ConnectionString=PORT=5432; HOST=sw_postgres_1;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=100;COMMANDTIMEOUT=20;DATABASE=sw_checkout;PASSWORD=123456;USER ID=postgres;
+     - SW_ReadStorage__ConnectionString=Server=sw_postgres_1;Port=5432;Database=sw_checkout;User Id=postgres;Password=123456;
+     - SW_ReadStorageSyncQueue__Host=localhost
+     - SW_ReadStorageSyncQueue__QueueName=read-storage-sync
+     - SW_ReadStorageSyncQueue__Route=read-storage-sync
+     - SW_ProcessOrderQueue__Host=localhost
+     - SW_ProcessOrderQueue__QueueName=process-order
+     - SW_ProcessOrderQueue__Route=process-order
+    networks:
+     - net
+    ports:
+     - "8434:80"
