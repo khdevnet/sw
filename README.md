@@ -13,7 +13,7 @@ Users must have access to this application after being authenticated.
   $ git submodule update --init --recursive
   $ git submodule update --recursive --remote
   ```
-2. Run docker compose 
+2. Run application using docker compose 
   ```
   $ docker-compose up
   ```
