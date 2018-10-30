@@ -1,12 +1,23 @@
 # Star Wars Shop
 Designed and created for training purpose in software architecture.
-
 # Goals
 User have to see a list of all the available products in stock. 
 We need to be able to see product information (name, price, quantity) in readable form.
 User need to have possibility perform search by product name and buy any product.
 User need to have possibility checkout product and create order. 
 Users must have access to this application after being authenticated.
+
+# Start application
+1. Clone all projects
+  ```
+  $ git submodule update --init --recursive
+  $ git submodule update --recursive --remote
+  ```
+2. Run docker compose 
+  ```
+  $ docker-compose up
+  ```
+
 
 # Features
   * [Display available products in SW store](https://github.com/khdevnet/sw/wiki/Display-available-products-on-warehouse)
@@ -17,16 +28,6 @@ Users must have access to this application after being authenticated.
   * Create online chat bot
   
 # Development
-### Start
-  * Clone all projects
-  ```
-  $ git submodule update --init --recursive
-  $ git submodule update --recursive --remote
-  ```
-  * Run docker compose 
-  ```
-  $ docker-compose up
-  ```
 ### Frameworks & Architecture Styles
   * [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
   * [CQRS Architecture](https://martinfowler.com/bliki/CQRS.html)
