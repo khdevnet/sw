@@ -17,6 +17,7 @@ Users must have access to this application after being authenticated.
   ```
   $ docker-compose up
   ```
+3. Open http://localhost:8444 url in browser
 
 
 # Features
