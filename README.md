@@ -15,8 +15,9 @@ Users must have access to this application after being authenticated.
   ```
 2. Run application using docker compose 
   ```
-  $ docker-compose up
+  $ docker-compose up --scale handler=2
   ```
+3. Open http://localhost:8444 url in browser
 
 
 # Features
