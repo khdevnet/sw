@@ -45,6 +45,8 @@ Users must have access to this application after being authenticated.
   * [GraphQL Component](https://github.com/khdevnet/sw-graphql) - provides an API to interact with Frontend
   * [Products Component](https://github.com/khdevnet/sw-products) - provides an API for Products CRUD operations
   * [Checkout Component](https://github.com/khdevnet/sw-checkout) - provides an API for checkout order operations
+  * [Delivery Component](https://github.com/khdevnet/sw-delivery) - provides an API for delivery order operations
+  * [Delivery Truck](https://github.com/khdevnet/sw-delivery-truck) - provides delivery truck simulator
 
 ### Process
   * [Development Flow](https://github.com/khdevnet/warehouse/wiki/Development-Task-Flow)
