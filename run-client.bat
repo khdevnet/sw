@@ -1,0 +1,1 @@
+dotnet sw-checkout\SW.Checkout.Client\bin\Debug\netcoreapp2.1\SW.Checkout.Client.dll
